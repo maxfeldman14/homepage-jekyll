@@ -6,6 +6,7 @@ type: projects
   {% for project in site.categories.projects %}
   {% if project.listImage %} {% assign pimg = project.listImage %}
   {% else %} {% assign pimg = "/images/projects/default.png" %} {% endif %}
+  testing post receive!
   %li.project-list-item
     %a{:href => "{{ project.url }}"}
       %img.project-list-image{:src => "{{ pimg }}"}
