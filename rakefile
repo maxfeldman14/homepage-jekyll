@@ -10,17 +10,17 @@ end
 
 
 desc "Launch preview environment"
-task :preview => [:haml, :sass, :clean] do
+task :preview => [:haml, :clean] do
   system "jekyll --auto --server"
 end
 
 desc "Build site"
-task :build => [:haml, :sass, :clean] do |task, args|
+task :build => [:haml, :clean] do |task, args|
   system "jekyll"
 end
 
 desc "Build non-native things for Jekyll"
-task :nonnative => [:haml, :sass] do |task, args|
+task :nonnative => [:haml] do |task, args|
 end
 
 task :clean do
