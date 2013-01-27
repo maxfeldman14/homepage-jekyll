@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>maxfeldman.net {% if page.title %}| {{ page.title }} {% endif %}</title>
+<link href='/stylesheets/style.css' rel='stylesheet' type='text/css' />
+<link href='/stylesheets/bootstrap.min.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div id='main'>
+<div id='navbar'>
+<div id='fixed-float'>
+<div id='name'>
+<div id='sub-header'>
+<span class='line-fill'>
+<span class='fill-green'></span>
+</span>
+<span id='sub-name'>
+<a href='http://www.maxfeldman.net'>maxfeldman.net</a>
+</span>
+</div>
+</div>
+<div id='right-header'>
+<span id='menu'>
+<a href='/projects'>Projects</a>
+/
+<a href='/blog'>Blog</a>
+</span>
+</div>
+</div>
+</div>
+{% if page.title %}
+<div class='title'>
+<div class='title-text text-gray'>
+&raquo;
+{{ page.title }}
+</div>
+<div class='line-fill'>
+<div class='fill-gray'></div>
+</div>
+</div>
+{% endif %}
+<div id='content-back'>
+{% if page.type %} {% assign type= page.type %} 
+{% else %} {% assign type = "standard" %} {% endif %}
+<div class='content-{{ type }}' id='content'>
+{{ content }}
+</div>
+<div id='footer'>
+Copyright &copy; 2012 Brandon Wang
+</div>
+</div>
+</div>
+</body>
+</html>
