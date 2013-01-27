@@ -8,16 +8,6 @@ task :haml do
   puts "done."
 end
 
-desc "Parse sass layouts"
-task :sass do
-  print "Parsing Sass layouts..."
-  system(%{
-    cd stylesheets/ && 
-    for f in *.sass; do [ -e $f ] && sass $f ${f%.sass}.css; done
-  })
-  puts "done."
-end
-
 
 desc "Launch preview environment"
 task :preview => [:haml, :sass, :clean] do

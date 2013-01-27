@@ -1,20 +1,19 @@
 !!! 5
 -# Ugh, mixing HAML and Liquid is really gross
 - menuLinks = {:Projects => "/projects",
-  :About => "/about",
+  :Blog => "/blog",
   }
 
 %html
   %head
-    %title brandonwang.net {% if page.title %}| {{ page.title }} {% endif %}
+    %title maxfeldman.net {% if page.title %}| {{ page.title }} {% endif %}
     %link{:rel => "stylesheet", :href => "/stylesheets/style.css", :type => "text/css"}
+    %link{:rel => "stylesheet", :href => "/stylesheets/bootstrap.min.css", :type => "text/css"}
   %body
     #main
       #page-header
         #fixed-float
           #name
-            #main-name
-              brandonwang
             #sub-header
               %span.line-fill
                 %span.fill-green
