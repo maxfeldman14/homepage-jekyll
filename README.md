@@ -21,4 +21,4 @@ to build into a folder, or
 to build and start a web server listening on port 4000, that you access in a 
 browser at [localhost:4000](localhost:4000)
 
-Borrows heavily from [brandonwang.net](http://brandonwang.net).
+Borrows heavily from [brandonwang.net](http://brandonwang.net). Also uses Twitter [Bootstrap](http://twitter.github.com/bootstrap/) and [Jekyll Bootstrap](http://jekyllbootstrap.com/).
