@@ -1,20 +1,11 @@
 ---
-layout: default
-type: blog
+layout: default 
+type: projects
 ---
-%ul.project-list
-  {% for project in site.categories.blog %}
-  {% if project.listImage %} {% assign pimg = project.listImage %}
-  {% else %} {% assign pimg = "/images/blog/default.png" %} {% endif %}
-  %li.project-list-item
-    %a{:href => "{{ project.url }}"}
-      %img.project-list-image{:src => "{{ pimg }}"}
-    .project-list-text
-      -# Later, this should go into a helper function or something
-      .header-title
-        .title-text.text-gray
-          %a{:href => "{{ project.url }}"} {{ project.title }}
-        .line-fill
-          .fill-gray
-      %p.project-list-description {{ project.description }}
+%ul.posts
+  {% for post in site.categories.blog %}
+  %li
+    %span {{post.date | date_to_string }} &raquo;
+    %a{:href => "{{ post.url }}"} {{post.title}}
+    %p {{post.description}}
   {% endfor %}
