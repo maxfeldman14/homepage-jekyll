@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: "First Post"
 description: "Testing jekyll"
 ---
