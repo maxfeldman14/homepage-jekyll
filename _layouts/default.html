@@ -11,32 +11,23 @@
 <div class='container'>
 <a class='brand' href='/'>maxfeldman.net</a>
 <ul class='nav'>
+<li>
 <a href='/projects'>Projects</a>
+</li>
+<li>
 <a href='/blog'>Blog</a>
+</li>
 </ul>
 </div>
 </div>
 </div>
-{% if page.title %}
-<div class='title'>
-<div class='title-text text-gray'>
-&raquo;
-{{ page.title }}
-</div>
-<div class='line-fill'>
-<div class='fill-gray'></div>
-</div>
-</div>
-{% endif %}
-<div id='content-back'>
-{% if page.type %} {% assign type= page.type %} 
-{% else %} {% assign type = "standard" %} {% endif %}
-<div class='content-{{ type }}' id='content'>
+<div class='container'>
+<div class='content'>
 {{ content }}
 </div>
-<div id='footer'>
-Copyright &copy; 2012 Brandon Wang
-</div>
+<footer>
+<p>Copyright &copy; 2013 Max Feldman</p>
+</footer>
 </div>
 </body>
 </html>

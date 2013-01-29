@@ -8,7 +8,7 @@
   %head
     %title maxfeldman.net
     %link{:rel => "stylesheet", :href => "/assets/bootstrap.min.css"}
-    %link{:href => "assets/style.css?body=1", :rel => "stylesheet", :type => "text/css", :media => "all"}
+    %link{:href => "/assets/style.css?body=1", :rel => "stylesheet", :type => "text/css", :media => "all"}
   %body
     .navbar
       .navbar-inner
@@ -16,21 +16,13 @@
           %a.brand{:href => "/"} maxfeldman.net
           %ul.nav
             - firstLink = menuLinks.keys.first
-            %a{:href => menuLinks[firstLink]}= firstLink
+            %li
+              %a{:href => menuLinks[firstLink]}= firstLink
             - menuLinks.keys[1..menuLinks.count-1].each do |link|
-              %a{:href => menuLinks[link]}= link
-    {% if page.title %}
-    .title
-      .title-text.text-gray
-        &raquo;
-        {{ page.title }}
-      .line-fill
-        .fill-gray
-    {% endif %}
-    #content-back
-      {% if page.type %} {% assign type= page.type %} |
-      {% else %} {% assign type = "standard" %} {% endif %}
-      #content{"class" => "content-{{ type }}"}
+              %li
+                %a{:href => menuLinks[link]}= link
+    .container
+      .content
         == {{ content }}
-      #footer
-        Copyright &copy; 2012 Brandon Wang
+      %footer
+        %p Copyright &copy; 2013 Max Feldman
