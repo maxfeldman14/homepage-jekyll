@@ -22,7 +22,12 @@ browser at [localhost:4000](http://localhost:4000).
 
 Borrows heavily from [brandonwang.net](http://brandonwang.net). Also uses Twitter [Bootstrap](http://twitter.github.com/bootstrap/) and [Jekyll Bootstrap](http://jekyllbootstrap.com/).
 
-##TODO
+##General stuff
+* two types of content (basically)- blogs and projects (both are posts)
+* blogs have lots of content and get their own page and a full list with links
+* projects have short descriptions and are all shown on one page
+
+###TODO
 * Finish styling for projects
 * Re-add rake tasks for creating posts, projects
 * Deal with weird horizontal overflow/width

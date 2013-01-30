@@ -1,0 +1,18 @@
+---
+layout: page
+title : Projects
+header : Projects
+group: navigation
+---
+%h2 Selected work/research/school projects
+%ul
+  {% for project in site.categories.projects %}
+  %li
+    %a{:href => "{{ project.url }}"} {{ project.title }}
+    .project-list-text
+      .header-title
+        {{ project.title }}
+      .line-fill
+      %p.project-list-description {{ project.description }}
+        {{ content }}
+  {% endfor %}
