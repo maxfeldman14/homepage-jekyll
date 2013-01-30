@@ -26,7 +26,7 @@ I occasionally contribute to UC Berkeley's HKN (Mu chapter) [website].
 ####Personal Website
 I maintain this site to practice and explore web development.
 [github]
-[github]: https://github.com/maxfeldman14/homepage"}
+[github]: https://github.com/maxfeldman14/homepage-jekyll"}
 
 ####PHELONY
 In the Spring 2012 semester I took [CS194-22]: Cell Phones as a Computing Platform. Our team contributed to the [OsmocomBB] project, an open source GSM Baseband software implementation.
