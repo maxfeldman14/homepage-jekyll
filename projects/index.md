@@ -36,7 +36,7 @@ In the Spring 2012 semester I took [CS194-22]: Cell Phones as a Computing Platfo
 [github]: https://github.com/maxfeldman14/PHELONY
 
 ----------------------------------------
-###Industry
+###Work
 
 ####CS161: Computer Security
 I joined the staff of UC Berkeley's [CS161] in the Spring 2012 semester.
