@@ -28,7 +28,7 @@ Borrows heavily from [brandonwang.net](http://brandonwang.net). Also uses Twitte
 * projects have short descriptions and are all shown on one page
 
 ###TODO
-* Finish styling for projects
+* automate projects styling
 * Re-add rake tasks for creating posts, projects
 * Deal with weird horizontal overflow/width
 * Support pictures in blog posts
