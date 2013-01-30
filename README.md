@@ -26,4 +26,4 @@ Borrows heavily from [brandonwang.net](http://brandonwang.net). Also uses Twitte
 * Finish styling on (blog) posts, projects
 * Re-add rake tasks for creating posts, projects
 * Deal with weird horizontal overflow/width
-* Paginate shows projects (all _posts), should just be blogs
+* Support pictures in blog posts
