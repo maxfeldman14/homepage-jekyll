@@ -5,7 +5,7 @@ title: About Me
 **Hi, I'm Max Feldman.** I am a senior EECS student at UC Berkeley (although I am currently studying abroad in Costa Rica). My focus within EECS is computer science, with a particular interest in computer security. 
 
 I am currently involved in various research and work [projects]. I have spent the past two summers interning at [Salesforce.com]. I am enthusiastic about exploring the many facets of computer security, and in addition to my network security research I've begun to look into web application security and applied cryptography.
-[projects]: #{projects_path}
+[projects]: /projects
 [Salesforce.com]: http://www.salesforce.com
 
 I've had the privilege of working on UC Berkeley's [computer security] and [software engineering] courses in the SP12 semester, and will continue to participate in the FA12 semester.
