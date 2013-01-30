@@ -3,7 +3,7 @@ layout: default
 type: projects
 ---
 %ul.project-list
-  {% for project in site.categories.projects %}
+  {% for project in site.projects %}
   {% if project.listImage %} {% assign pimg = project.listImage %}
   {% else %} {% assign pimg = "/images/projects/default.png" %} {% endif %}
   %li.project-list-item
