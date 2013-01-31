@@ -33,3 +33,4 @@ Borrows heavily from [brandonwang.net](http://brandonwang.net). Also uses Twitte
 * Deal with weird horizontal overflow/width
 * Support pictures in blog posts
 * add pictures
+* support heroku
