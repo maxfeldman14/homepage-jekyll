@@ -1,0 +1,30 @@
+!!! 5
+-# Ugh, mixing HAML and Liquid is really gross
+- menuLinks = {:Projects => "/projects",
+  :Blog => "/blog",
+  }
+
+%html
+  %head
+    %title maxfeldman.net
+    %link{:rel => "stylesheet", :href => "/assets/bootstrap.min.css"}
+    %link{:href => "/assets/style.css?body=1", :rel => "stylesheet", :type => "text/css", :media => "all"}
+  %body
+    .navbar
+      .navbar-inner
+        .container
+          %a.brand{:href => "/"} maxfeldman.net
+          %ul.nav
+            == {% assign pages_list = site.pages %}
+            == {% assign group = 'navigation' %}
+            - firstLink = menuLinks.keys.first
+            %li
+              %a{:href => menuLinks[firstLink]}= firstLink
+            - menuLinks.keys[1..menuLinks.count-1].each do |link|
+              %li
+                %a{:href => menuLinks[link]}= link
+    .container
+      .content
+        == {{ content }}
+      %footer
+        %p Copyright &copy; 2013 Max Feldman
