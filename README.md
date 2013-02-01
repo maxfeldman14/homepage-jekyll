@@ -32,4 +32,4 @@ Borrows heavily from [brandonwang.net](http://brandonwang.net). Also uses Twitte
 * Re-add rake tasks for creating posts, projects
 * Deal with weird horizontal overflow/width
 * Support pictures in blog posts (and add pictures)
-* Support opengraph so it looks better when sharing on facebook
+* less manual stuff for assets, at some point
