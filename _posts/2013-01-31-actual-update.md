@@ -2,7 +2,7 @@
 layout: post
 category: blog
 title: "An Actual Update"
-description: "Actually adding content to the blog"
+description: "A more detailed recap of my first few weeks in Costa Rica"
 ---
 {% include JB/setup %}
 ###Costa Rica
@@ -35,3 +35,5 @@ Also, for some reason Heroku stopped properly parsing the HAML I used in this we
 I attempted to update with new content, but Ruby application updates were disabled due to a rubygems vulnerability (more details [here](https://status.heroku.com/incidents/489).
 When I was finally able to push the new post, HAML was no longer parsed, leaving things looking very ugly.
 For the time being I've stopped using HAML.
+
+The site should have support for OpenGraph now, though, hooray!

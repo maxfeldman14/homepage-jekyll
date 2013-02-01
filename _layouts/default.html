@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>maxfeldman.net</title>
+<title>maxfeldman.net | {{ page.title }}</title>
 <link href='/assets/bootstrap.min.css' rel='stylesheet' />
 <link href='/assets/style.css?body=1' media='all' rel='stylesheet' type='text/css' />
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ page.url }}" />
+<meta property="og:description" content="{{ page.description }}" />
+{% if page.image %}
+<meta property="og:image" content="{{ page.image }}">
+{% else %}
+<meta property="og:image" content="/assets/monkey.jpg">
+{% endif %}
 </head>
 <body>
 <div class='navbar'>
