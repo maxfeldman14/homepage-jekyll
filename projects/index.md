@@ -47,7 +47,7 @@ I joined the staff of UC Berkeley's [CS169]  in the Spring 2012 semester.
 [CS169]: https://sites.google.com/site/ucbsaas
 
 ####Salesforce
-I've spent the past two summers working at [Salesforce.com], and continued to work there part time during Fall 2012.e
+I've spent the past two summers working at [Salesforce.com], and continued to work there part time during Fall 2012.
 [Salesforce.com]: https://www.salesforce.com
 
 ####Machine shop
