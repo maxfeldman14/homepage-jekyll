@@ -28,3 +28,5 @@ The following day there was an electronic music festival closer to San Jose cent
 ###Technical stuff
 I am currently looking into the best/easiest way to include pictures in this blog, and perhaps upload whole albums.
 I may use dropbox for storage and provide links to the albums.
+
+I also recently gave a presentation on Alan Turing for my Spanish class, and spent a while trying to explain Turing machines in Spanish, which was fun.
