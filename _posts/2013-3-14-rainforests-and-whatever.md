@@ -30,3 +30,5 @@ This has been fun.
 
 ###Technical stuff
 I still haven't really gotten around to making this blog more readable or usable.
+I want to make the OpenGraph thumbnail look better (the image I have currently doesn't look ideal).
+I may get to this eventually.
