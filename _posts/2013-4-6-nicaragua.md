@@ -32,12 +32,13 @@ I caught a different bus and eventually made it to La Isla Ometepe (again) to se
 The travel was long, but interesting.
 When I left La Isla for the final time, right as we were about to dock, a large wave splashed me and soaked all of my stuff (and myself).
 Unfortunately, I also think that I left my camera on the island.
-The following day, a small group of us went to Masaya (but the market was closed).
-From Masaya, myself and another man went to Managua.
+A small group of us went to Masaya (but the market was closed) after leaving the island.
+From Masaya two of us went to Managua.
 
 I caught a bus back the following morning, which only took about 9 hours.
-The buses were very interesting (they are called chicken buses, and are basically old school buses but packed wall-to-wall with people).
-It was an interesting experience, but I eventually made it back to San Jose.
+We watched Resident Evil and G.I. Joe on the bus.
+The buses were very interesting (they are called chicken buses, and are basically old school buses but at times packed wall-to-wall with people).
+Overall it was a fun trip and we met a lot of fun people and did a lot of fun things.
 
 
 ###Technical stuff
