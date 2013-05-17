@@ -5,10 +5,8 @@ title: Projects
 ###Academic
 ####Bro
 
-I am currently working on ARP spoofing detection using [bro], a powerful network traffic analysis tool.
-[github]
-[bro]: http://www.bro-ids.org/
-[github]: https://github.com/maxfeldman14/brospects
+I am currently working on ARP spoofing detection using [bro](http://www.bro-ids.org), a powerful network traffic analysis tool.
+[github](https://github.com/maxfeldman14/brospects)
 
 ####MERmaid
 I have recently begun contributing to [MERmaid], a distributed *de novo* genome assembler.
@@ -16,24 +14,19 @@ I have recently begun contributing to [MERmaid], a distributed *de novo* genome 
 
 ####NFC Access Control
 In Fall 2012 I worked on a project to provide better security to NFC applications for Android.
-[github]
-[github]: https://github.com/maxfeldman14/NFC
+[github](https://github.com/maxfeldman14/NFC)
 
 ####HKN Website
 I occasionally contribute to UC Berkeley's HKN (Mu chapter) [website].
-[website]: https://hkn.eecs.berkeley.edu"
+[website]: https://hkn.eecs.berkeley.edu
 
 ####Personal Website
 I maintain this site to practice and explore web development.
-[github]
-[github]: https://github.com/maxfeldman14/homepage-jekyll"}
+[github](https://github.com/maxfeldman14/homepage-jekyll)
 
 ####PHELONY
-In the Spring 2012 semester I took [CS194-22]: Cell Phones as a Computing Platform. Our team contributed to the [OsmocomBB] project, an open source GSM Baseband software implementation.
-[github]
-[CS194-22]: http://phone.cs.berkeley.edu/dokuwiki/doku.php?id=194-22:sp2012
-[OsmocomBB]: http://bb.osmocom.org/
-[github]: https://github.com/maxfeldman14/PHELONY
+In the Spring 2012 semester I took [CS194-22](http://phone.cs.berkeley.edu/dokuwiki/doku.php?id=194-22:sp2012): Cell Phones as a Computing Platform. Our team contributed to the [OsmocomBB](http://bb.osmocom.org/) project, an open source GSM Baseband software implementation.
+[github](https://github.com/maxfeldman14/PHELONY)
 
 ----------------------------------------
 ###Work
